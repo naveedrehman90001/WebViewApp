@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     animationController = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 5),
+      duration: Duration(seconds: 7),
     )..addListener(() => setState(() {}));
     animation = CurvedAnimation(
       parent: animationController,
@@ -48,7 +48,11 @@ class _SplashScreenState extends State<SplashScreen>
           height: deviceSize.height,
           decoration: BoxDecoration(
             gradient: new LinearGradient(
-              colors: [Color(0xFFdd9933), Color(0xFFd68d28)],
+              // colors: [Color(0xFFdd9933), Color(0xFFd68d28)],
+              colors: [
+                Colors.green,
+                Colors.greenAccent
+              ],
               begin: Alignment.centerRight,
               end: new Alignment(-1.0, -1.0),
             ),
