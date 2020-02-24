@@ -48,11 +48,7 @@ class _SplashScreenState extends State<SplashScreen>
           height: deviceSize.height,
           decoration: BoxDecoration(
             gradient: new LinearGradient(
-              // colors: [Color(0xFFdd9933), Color(0xFFd68d28)],
-              colors: [
-                Colors.green,
-                Colors.greenAccent
-              ],
+              colors: [Color(0xFFdd9933), Color(0xFFd68d28)],
               begin: Alignment.centerRight,
               end: new Alignment(-1.0, -1.0),
             ),
@@ -67,7 +63,6 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Container(
                   height: 100,
                   width: 100,
-                  // color: Colors.green,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(70.0),
                       color: Colors.grey,
@@ -76,7 +71,6 @@ class _SplashScreenState extends State<SplashScreen>
                         fit: BoxFit.cover,
                       )),
 
-                  // child: Image.asset('images/imglogo.png'),
                 ),
               ),
               SizedBox(

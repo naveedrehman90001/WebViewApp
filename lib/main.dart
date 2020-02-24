@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Kensa International",
       home: SplashScreen(),
-      //  home: PaymentScreen(),
     );
   }
 }
