@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Color(0xff7e57c2),
+        primaryColor: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
       title: "Kensa International",
