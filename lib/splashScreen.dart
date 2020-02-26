@@ -78,7 +78,6 @@ class _SplashScreenState extends State<SplashScreen>
               ),
               TypewriterAnimatedTextKit(
                   onTap: () {
-                    print("Tap Event");
                   },
                   text: [
                     "KENSA INTERNATIONAL",
